@@ -16,7 +16,7 @@ import Whycontant from './Whycontant';
 const Contact = () => {
   return (
     <>
-     <div className="flex flex-row  my-8  ">
+     <div className="flex flex-row flex-wrap justify-center  my-8  ">
         <div className="h-[100] md:w-1/4 bg-blue-400 ">
           <h1 className="text-[#ffffff] md:text-2xl my-2">
            Timings 24*7
@@ -24,19 +24,19 @@ const Contact = () => {
           <h1 className='text-4xl'>
             <MdAttachEmail/>
           </h1>
-          <h1 className='relative bottom-8 left-16 font-bold'>Email:nehabobade1@gmail.com</h1>
+          <h1 className='relative bottom-8 left-16 w-60 font-bold'>Email:nehabobade1@gmail.com</h1>
 
           <h1 className='text-4xl'><FaPhoneVolume /></h1>
-          <h1 className='relative bottom-8 left-16 font-bold'>PH:4556676625</h1>
+          <h1 className='relative bottom-8 left-16 w-60 font-bold'>PH:4556676625</h1>
           <h1 className="text-[#ffffff] md:text-2xl my-2">
            Emergency Contact
           </h1>
           <h1 className='text-4xl'>
             <MdAttachEmail/>
           </h1>
-          <h1 className='relative bottom-8 left-16 font-bold'>Email:nehapawar@gmail.com</h1>
+          <h1 className='relative bottom-8 left-16 w-60 font-bold'>Email:nehapawar@gmail.com</h1>
           <h1 className='text-4xl'><FaPhoneVolume /></h1>
-          <h1 className='relative bottom-8 left-16 font-bold'>PH:998877523</h1>
+          <h1 className='relative bottom-8 left-16 w-60 font-bold'>PH:998877523</h1>
 
         <div className='flex items-center justify-center m-2 gap-4'>
         <h1 className='text-zinc-600 text-4xl'><FaSquareInstagram /></h1>

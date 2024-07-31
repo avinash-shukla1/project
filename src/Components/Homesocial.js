@@ -15,22 +15,22 @@ const Homesocial = () => {
         <h1 className='double-stroke'>Social Media</h1>
         <h1 className='text-xl'>Don’t miss to follow us on our social media accounts.</h1>
     </div>
-    <div className='flex items-center justify-center m-2 gap-6'>
-        <h1 className='text-red-800 text-6xl'><FaSquareInstagram /></h1>
-        <h1 className='text-blue-600 text-6xl'><FaTwitter /></h1>
-        <h1 className='text-green-600 text-6xl'><FaWhatsappSquare /></h1>
-        <h1 className='text-blue-600 text-6xl'><FaTelegram /></h1>
-        <h1 className='text-red-600 text-6xl'><FaYoutube /></h1>
-        <h1 className='text-blue-600 text-6xl'><FaLinkedin /></h1>
+    <div className='flex items-center justify-center m-2 lg:gap-6 gap-4'>
+        <h1 className='text-red-800 lg:text-6xl text-5xl'><FaSquareInstagram /></h1>
+        <h1 className='text-blue-600 lg:text-6xl text-5xl'><FaTwitter /></h1>
+        <h1 className='text-green-600 lg:text-6xl text-5xl'><FaWhatsappSquare /></h1>
+        <h1 className='text-blue-600 lg:text-6xl text-5xl'><FaTelegram /></h1>
+        <h1 className='text-red-600 lg:text-6xl text-5xl'><FaYoutube /></h1>
+        <h1 className='text-blue-600 lg:text-6xl text-5xl'><FaLinkedin /></h1>
     </div>
     </div>
-    <div className='flex justify-center items-center flex-col bg-blue-400 py-8 mx-24' style={{height:"10%",width:"80%"}}>
-        <h1 className='text-4xl font-semibold'>Collaboration is the key to success.</h1>
-        <h1 className='text-xl font-gilroy'>Let's work together for your company's</h1>
-        <h1 className='text-xl font-gilroy'>growth and innovation!</h1>
-        <button className='bg-black px-10 py-4 text-white rounded-lg'>Now Know</button>
+    {/* <div className='sm:hidden flex justify-center items-center flex-col bg-blue-400 py-8 mx-24' style={{height:"10%",width:"80%"}}>
+        <h1 className='lg:text-4xl text-xl font-semibold font-serif'>Collaboration is the key to success.</h1>
+        <h1 className='lg:text-xl text-sm font-gilroy'>Let's work together for your company's</h1>
+        <h1 className='lg:text-xl text-sm font-gilroy'>growth and innovation!</h1>
+        <button className='bg-black lg:px-10 lg:py-4 px-6 py-2 text-white rounded-lg'>Now Know</button>
         <button></button>
-    </div>
+    </div> */}
     </>
   )
 }

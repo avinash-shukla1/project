@@ -18,8 +18,6 @@ const Whyus = () => {
       {/* <Abouteservis/> */}
       < Whycontact/>
        <Contactpage/>
-       <Whycontact/>
-      
        
        <Footer/>
       

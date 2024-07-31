@@ -22,17 +22,17 @@ export default function HomeVideo() {
           </div>
           <div class="slide">
             <img
-              className="h-80 w-80 my-4  px-2"
+              className="h-80 w-80 h-60 w-60 my-4  px-2"
               src="https://th.bing.com/th/id/OIP.Z_CaH1UzGOSEon7EdHNrGwHaE8?rs=1&pid=ImgDetMain"
               alt=""
             />
           </div>
           <div class="slide">
-            <img className="h-80 w-80 my-4  px-2" src="https://www.infrastructurenews.co.nz/wp-content/uploads/2017/08/iStock-532115508-crop.jpg" alt="" />
+            <img className="h-80 w-80  my-4  px-2" src="https://www.infrastructurenews.co.nz/wp-content/uploads/2017/08/iStock-532115508-crop.jpg" alt="" />
           </div>
           <div class="slide">
             <img
-              className="h-80 w-80 my-4 px-2"
+              className="h-80 w-80  my-4 px-2"
               src="https://th.bing.com/th/id/OIP.cf34S8t1AshTwnNqiA0nuAHaEF?w=725&h=400&rs=1&pid=ImgDetMain"
               alt=""
             />
@@ -46,7 +46,7 @@ export default function HomeVideo() {
           </div> */}
           <div class="slide">
             <img
-              className="h-80 w-80 my-4 px-2"
+              className="h-80 w-80  my-4 px-2"
               src="https://media.licdn.com/dms/image/C4E12AQGYegpAsrheFQ/article-cover_image-shrink_600_2000/0/1559663477108?e=2147483647&v=beta&t=m7041qGWApkd4eS78RKzA9fQOboRF7PJT_OSU7OdJEw"
               alt=""
             />

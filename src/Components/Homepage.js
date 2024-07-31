@@ -4,14 +4,14 @@ const Homepage = () => {
   return (
     <>
     <div className='flex m-2'>
-    <div style={{"clip-path": "polygon(0 0, 51% 1%, 88% 100%, 0% 100%)"}} className='h-full w-3/4 '>
-        <img className='overflow-hidden object-cover' src="https://www.kenwayconsulting.com/app/uploads/2019/08/shutterstock_633351221-1024x683.jpg" alt="" />
+    <div className='lg:h-full lg:w-3/4 '>
+        <img className='overflow-hidden object-cover' src="https://th.bing.com/th/id/OIP.cf34S8t1AshTwnNqiA0nuAHaEF?w=725&h=400&rs=1&pid=ImgDetMain" alt="" />
     </div>
-    <div className='relative right-40 top-20'>
-        <h1 className='text-4xl font-bold font-sans '>How to Write a Business Proposal</h1>
-        <h1 className='text-4xl font-bold font-sans my-2'>[Examples + Template]</h1>
-        <h1 className='text-4xl font-bold font-sans my-2'>Get in touch with us</h1>
-        <button className='bg-blue-900 px-20 py-4 font-sans rounded-full text-white text-2xl'>Services</button>
+    <div className='relative lg:right-28 lg:top-20'>
+        <h1 className='lg:text-5xl sm:text-xs font-bold font-sans italic '>How to Write a Business Proposal</h1>
+        <h1 className='lg:text-5xl sm:text-xs font-bold  font-sans my-2 italic'>[Examples + Template]</h1>
+        <h1 className='lg:text-5xl sm:text-xs  font-bold font-sans my-2 italic'>Get in touch with us</h1>
+        <button className='bg-blue-900 lg:px-20 lg:py-4 px-10 py-2 font-sans rounded-full text-white lg:text-2xl text-xl'>Services</button>
     </div>
     </div>
     </>

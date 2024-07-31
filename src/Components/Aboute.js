@@ -10,8 +10,8 @@ const Aboute = () => {
     <>
       <Aboutevision />
       <Homeswiper/>
-      <Whykey />
-      <Footer/>
+     <Whykey />
+       <Footer/>
     </>
   );
 };
